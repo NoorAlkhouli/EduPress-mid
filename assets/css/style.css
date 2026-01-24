@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Exo;
+}
+
+:root {
+    --main-color: #FF782D;
+}
+
+.btn-main {
+    background-color: var(--main-color);
+
+    &:hover {
+        opacity: 1;
+        background-color: #FF782D;
+    }
+
+    &:active {
+        background-color: #FF782D !important;
+    }
+
+    &:focus {
+        background-color: #FF782D !important;
+    }
+}
+
+.navbar-toggler:not(.collapsed) .list {
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-toggler:not(.collapsed) .close {
+    display: inline !important;
+    width: 20px;
+    height: 20px;
+}
+
+.mx-70 {
+    margin: 0px 70px;
+}
+
+.nav-item a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.nav-item .active {
+    color: var(--main-color) !important;
+}
+
+.collapse {
+    .search {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: 2px solid var(--main-color);
+    }
+
+    .login-btn {
+        font-family: Jost;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .mx-70 {
+        margin: auto;
+    }
+
+    .nav-item {
+        border-bottom: 1px solid #EEEEEE;
+
+        a {
+            padding: 20px 0px;
+        }
+    }
+}
