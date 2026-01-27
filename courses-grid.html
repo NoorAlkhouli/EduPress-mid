@@ -13,8 +13,8 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/pages/home/home.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/pages/courses/courses-grid.css">
+    <title>Courses-Grid</title>
 </head>
 
 <body>
@@ -32,10 +32,10 @@
                     <ul
                         class="navbar-nav me-auto flex-lg-grow-1 justify-content-lg-center gap-lg-4 mb-lg-0 mt-lg-0 mt-4 mb-2 gap-2">
                         <li class="nav-item ">
-                            <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./courses-grid.html">Courses</a>
+                            <a class="nav-link active" href="#">Courses</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
@@ -78,86 +78,33 @@
             </div>
         </nav>
 
-        <div class="hero w-100 gap-4">
-            <h1>Build Skills with
-                Online Course</h1>
-            <p>We denounce with righteous indignation and dislike men who are
-                so beguiled and demoralized that cannot trouble.</p>
-            <button type="button" class="btn btn-main main-btn-font rounded-5 secondry-button ">Posts Comment</button>
+        <div class="hero w-100 d-flex align-items-center px-lg-5">
+            <a class="btn main-btn-font ">Homepage </a>
+            <img src="./assets/image/Icon (2).svg" alt="icon">
+            <a class="btn main-btn-font btn-1"> Course</a>
         </div>
     </header>
 
-
     <main>
-        <section class="categories d-flex flex-column gap-4">
+        <section class="allCourses ">
             <div
-                class="d-flex justify-content-center flex-column justify-content-lg-between  text-center align-items-center mt-5 flex-lg-wrap flex-lg-row">
-                <div>
-                    <h2>Top Categories</h2>
-                    <p>Explore our Popular Categories</p>
+                class="d-flex justify-content-start flex-column flex-lg-wrap  flex-lg-row justify-content-lg-between align-items-lg-center">
+                <h1>All Courses</h1>
+                <div class="d-flex justify-content-lg-between gap-3 ">
+                    <div class="position-relative">
+                        <input
+                            class="search-input form-control rounded-0 shadow-none border border-0 border-bottom border-black  p-1 "
+                            placeholder="Search" />
+                        <img class="position-absolute end-0 top-0" src="./assets/image/Icon (1).png" alt="search">
+                    </div>
+                    <div class="page-view d-flex gap-3 ">
+                        <a href="#" class="active"><i class="bi bi-grid-fill"></i></a>
+                        <a href="./courses-list.html"><i class="bi bi-list-task"></i></a>
+                    </div>
                 </div>
-                <button type="button"
-                    class="btn btn-outline-secondary main-btn-font text-black rounded-5 border-2 secondry-button">All
-                    Categories</button>
-            </div>
-
-            <div class="card-container d-flex justify-content-center flex-wrap mx-5">
-                <div class="card align-items-center justify-content-center">
-                    <img src="./assets/image/Vector.png" alt="vector">
-                    <h5 class="card-title">Art & Design</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">38 Courses</h6>
-                </div>
-                <div class="card align-items-center justify-content-center">
-                    <img src="./assets/image/icon2.png" alt="vector">
-                    <h5 class="card-title ">Development</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">38 Courses</h6>
-                </div>
-                <div class="card align-items-center justify-content-center">
-                    <img src="./assets/image/icon1.png" alt="vector">
-                    <h5 class="card-title">Communication</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">38 Courses</h6>
-                </div>
-                <div class="card align-items-center justify-content-center">
-                    <img src="./assets/image/icon3.png" alt="vector">
-                    <h5 class="card-title">Videography</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">38 Courses</h6>
-                </div>
-                <div class="card align-items-center justify-content-center">
-                    <img src="./assets/image/icon6.png" alt="vector">
-                    <h5 class="card-title">Marketing</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">38 Courses</h6>
-                </div>
-                <div class="card align-items-center justify-content-center">
-                    <img src="./assets/image/icon7.png" alt="vector">
-                    <h5 class="card-title">Content writing</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">38 Courses</h6>
-                </div>
-                <div class="card align-items-center justify-content-center">
-                    <img src="./assets/image/icon5.png" alt="vector">
-                    <h5 class="card-title">Finance</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">38 Courses</h6>
-                </div>
-                <div class="card align-items-center justify-content-center">
-                    <img src="./assets/image/icon4.png" alt="vector">
-                    <h5 class="card-title">Science</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">38 Courses</h6>
-                </div>
-
-
             </div>
         </section>
-
-        <section class="courses d-flex flex-column gap-4">
-            <div
-                class="d-flex justify-content-center flex-column justify-content-lg-between  text-center align-items-center mt-5 flex-lg-wrap flex-lg-row">
-                <div>
-                    <h2>Featured courses</h2>
-                    <p>Explore our Popular Categories</p>
-                </div>
-                <button type="button"
-                    class="btn btn-outline-secondary main-btn-font text-black rounded-5 border-2 secondry-button">All
-                    Categories</button>
-            </div>
+        <section class="card-grid d-flex flex-column gap-4">
 
             <div class="card-container d-flex justify-content-lg-between justify-content-center gap-5 flex-wrap ">
                 <div class="card position-relative">
@@ -238,95 +185,106 @@
 
                     </div>
                 </div>
+                <div class="card position-relative">
+                    <img src="./assets/image/image-4.png" class="card-img-top" alt="...">
+                    <h4 class="rounded-3 border-3 text-bg-dark py-2 px-2 m-3 position-absolute ">Photography</h4>
+                    <div class="card-body d-flex flex-column gap-2">
+                        <p class="text-black m-0"><span class="text-muted">by</span> Determined-Poitras</p>
+                        <h5 class="">Create an LMS Website with
+                            LearnPress</h5>
+                        <div class="detail d-flex gap-4  align-items-center ">
+                            <div class="d-flex justify-content-center align-items-center gap-2 pb-1">
+                                <img src="./assets/image/Component 2.svg" alt="">
+                                <p class="m-0 text-muted">2Weeks</p>
+
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/image/Component 2 (1).svg" alt="">
+                                <p class="m-0 text-muted font">156 Students</p>
+
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between border-top pt-3 my-1">
+                            <p class="m-0 paragraph"><del class="text-muted fw-light">$29.0</del> Free</p>
+                            <a class="btn main-btn-font m-0 p-0">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card position-relative">
+                    <img src="./assets/image/image-5.png" class="card-img-top" alt="...">
+                    <h4 class="rounded-3 border-3 text-bg-dark py-2 px-2 m-3 position-absolute ">Photography</h4>
+                    <div class="card-body d-flex flex-column gap-2">
+                        <p class="text-black m-0"><span class="text-muted">by</span> Determined-Poitras</p>
+                        <h5 class="">Create an LMS Website with
+                            LearnPress</h5>
+                        <div class="detail d-flex gap-4  align-items-center ">
+                            <div class="d-flex justify-content-center align-items-center gap-2 pb-1">
+                                <img src="./assets/image/Component 2.svg" alt="">
+                                <p class="m-0 text-muted">2Weeks</p>
+
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/image/Component 2 (1).svg" alt="">
+                                <p class="m-0 text-muted">156 Students</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between border-top pt-3 my-1">
+                            <p class="m-0 paragraph"><del class="text-muted fw-light">$29.0</del> Free</p>
+                            <a class="btn main-btn-font m-0 p-0">View More</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card position-relative">
+                    <img src="./assets/image/image-6.png" class="card-img-top" alt="...">
+                    <h4 class="rounded-3 border-3 text-bg-dark py-2 px-2 m-3 position-absolute ">Photography</h4>
+                    <div class="card-body d-flex flex-column gap-2">
+                        <p class="text-black m-0"><span class="text-muted">by</span> Determined-Poitras</p>
+                        <h5 class="">Create an LMS Website with
+                            LearnPress</h5>
+                        <div class="detail d-flex gap-4  align-items-center ">
+                            <div class="d-flex justify-content-center align-items-center gap-2 pb-1">
+                                <img src="./assets/image/Component 2.svg" alt="">
+                                <p class="m-0 text-muted">2Weeks</p>
+
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center gap-2">
+                                <img src="./assets/image/Component 2 (1).svg" alt="">
+                                <p class="m-0 text-muted font">156 Students</p>
+
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-between border-top pt-3 my-1">
+                            <p class="m-0 paragraph"><del class="text-muted fw-light">$29.0</del> Free</p>
+                            <a class="btn main-btn-font m-0 p-0">View More</a>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
         </section>
+        <section class="pagination d-flex justify-content-center align-items-center">
 
-        <section class="addons d-flex justify-content-center flex-column">
+            <ul class="d-inline-flex justify-content-center align-items-center list-unstyled gap-lg-3 gap-1">
+                <li>
+                    <span class="fw-semibold fs-6 m-0 p-0">&lt;</span>
+                </li>
+                <li>
+                    1
+                </li>
+                <li>
+                    2
+                </li>
+                <li>
+                    3
+                </li>
+                <li>
+                    <span class="fw-semibold fs-6 m-0 p-0">&gt;</span>
+                </li>
+            </ul>
 
-            <div class="my-lg-5 mx-lg-5 mx-2">
-                <h5>GET MORE POWER FROM</h5>
-                <h1>LearnPress Add-Ons</h1>
-                <p>The next level of LearnPress - LMS WordPress Plugin. More
-                    Powerful, Flexible and Magical Inside.</p>
-                <button type="button" class="btn btn-main main-btn-font rounded-5 secondry-button p-0 ">Explorer
-                    course</button>
-            </div>
-        </section>
-
-        <section
-            class="postive-card d-flex justify-content-lg-between justify-content-center flex-wrap gap-4 pt-lg-0 pt-5">
-            <div class="card rounded-4">
-                <div class="card-body d-flex justify-content-center align-items-center flex-column">
-                    <h1>25K+</h1>
-                    <h6>Active Students</h6>
-                </div>
-            </div>
-            <div class="card rounded-4">
-                <div class="card-body d-flex justify-content-center align-items-center flex-column">
-                    <h1>899</h1>
-                    <h6>Total Courses</h6>
-                </div>
-            </div>
-            <div class="card rounded-4">
-                <div class="card-body d-flex justify-content-center align-items-center flex-column">
-                    <h1>158</h1>
-                    <h6>Instructor</h6>
-                </div>
-            </div>
-            <div class="card rounded-4">
-                <div class="card-body d-flex justify-content-center align-items-center flex-column">
-                    <h1>100%</h1>
-                    <h6>Satisfaction rate</h6>
-                </div>
-            </div>
-        </section>
-
-        <section class="learnPress d-flex justify-content-lg-between align-items-center justify-content-center ">
-            <img src="./assets/image/Vector2.png" alt="Vector2">
-            <div class="detail d-flex flex-column justify-content-center px-lg-5 pt-lg-4 px-3 gap-3">
-                <h1>Grow us your skill
-                    with LearnPress LMS</h1>
-                <p>We denounce with righteous indignation and dislike men who are
-                    so beguiled and demoralized that cannot trouble.</p>
-                <div class="check d-flex gap-2 ">
-                    <img src="./assets/image/Component 2-2.svg" alt="check">
-                    <h6>Certification</h6>
-                </div>
-                <div class="check d-flex gap-2">
-                    <img src="./assets/image/Component 2-2.svg" alt="check">
-                    <h6>Certification</h6>
-                </div>
-                <div class="check d-flex gap-2">
-                    <img src="./assets/image/Component 2-2.svg" alt="check">
-                    <h6>Certification</h6>
-                </div>
-                <div class="check d-flex gap-2">
-                    <img src="./assets/image/Component 2-2.svg" alt="check">
-                    <h6>Certification</h6>
-                </div>
-                <button type="button" class="btn btn-main main-btn-font rounded-5 secondry-button p-0 ">Explorer
-                    course</button>
-            </div>
-
-        </section>
-
-
-        <section
-            class="academy d-flex justify-content-lg-between justify-content-center align-items-center flex-lg-row flex-column">
-            <div
-                class="d-flex align-items-center justify-content-center gap-lg-2 flex-lg-row flex-column pt-lg-0 pb-lg-0 pb-4 pt-5 gap-3">
-                <div class="circle d-flex justify-content-center align-items-center mx-lg-4 ">
-                    <img src="./assets/image/Group.svg" alt="student">
-
-                </div>
-                <h4>Let’s Start With Academy LMS</h4>
-            </div>
-
-            <div class=" d-flex gap-lg-4 gap-3 px-lg-3 justify-content-center flex-wrap pb-lg-0 pb-5">
-                <button type="button" class="btn  main-btn-font rounded-5 secondry-button  p-0 ">I’m a student</button>
-                <button type="button" class="btn btn-main main-btn-font rounded-5 theard-button p-0 ">Become an
-                    Instructor</button>
-            </div>
         </section>
 
         <section class="footer d-flex flex-column justify-content-between">
@@ -339,9 +297,6 @@
                 </div>
                 <div class="col-lg-2 col-12 d-flex flex-column ul-seciton">
                     <h4>GET HELP</h4>
-                    <!-- <h6>Contact Us</h6>
-                    <h6>Latest Articles</h6>
-                    <h6>FAQ</h6> -->
                     <ul>
                         <li>Contact Us</li>
                         <li>Latest Articles</li>
@@ -381,8 +336,6 @@
                 Powered by ThimPress</p>
         </section>
     </main>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
