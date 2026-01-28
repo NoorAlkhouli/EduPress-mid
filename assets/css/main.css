@@ -78,26 +78,26 @@
     text-transform: capitalize;
 }
 
-.nav-item
- .active {
-    color: var(--main-color) !important;
-    
-    
-
+nav {
+    .active {
+        color: var(--main-color) !important;
+    }
 }
-.dropdown-menu{
-  .active{
-    background-color: #F5F5F5;
-  }
-   .dropdown-item{
-    &:hover {
+
+.dropdown-menu {
+    .active {
+        background-color: #F5F5F5;
+    }
+
+    .dropdown-item {
+        &:hover {
             background-color: #F5F5F5;
         }
-    
+
         &:focus {
             background-color: #F5F5F5;
         }
-   }
+    }
 }
 
 .collapse {
@@ -130,11 +130,11 @@
 
             p {
                 font-family: var(--font-family-2);
-                    font-weight: 400;
-                    font-size: 18px;
-                    text-transform: capitalize;
-                    color: #555555;
-                    white-space: pre-line;
+                font-weight: 400;
+                font-size: 18px;
+                text-transform: capitalize;
+                color: #555555;
+                white-space: pre-line;
             }
         }
 
@@ -144,7 +144,7 @@
             font-size: 20px;
             text-transform: capitalize;
             color: #000000;
-           
+
         }
 
         ul {
@@ -155,10 +155,10 @@
             li {
                 margin-top: 15px;
                 font-family: var(--font-family-2);
-                    font-weight: 400;
-                    font-size: 18px;
-                    text-transform: capitalize;
-                    color: #555555;
+                font-weight: 400;
+                font-size: 18px;
+                text-transform: capitalize;
+                color: #555555;
             }
 
             .active {
@@ -166,23 +166,25 @@
             }
         }
 
-        .address{
+        .address {
             font-family: var(--font-family-2);
-                font-weight: 400;
-                font-size: 18px;
-                color: #555555;
-                
+            font-weight: 400;
+            font-size: 18px;
+            color: #555555;
+
         }
+
         .social {
             gap: 12px;
         }
     }
-        .copy-right {
-            font-family: var(--font-family-2);
-                font-weight: 400;
-                font-size: 18px;
-                color: #555555;
-        }
+
+    .copy-right {
+        font-family: var(--font-family-2);
+        font-weight: 400;
+        font-size: 18px;
+        color: #555555;
+    }
 }
 
 @media screen and (max-width : 992px) {
@@ -199,12 +201,14 @@
     }
 
     .footer {
-       height: auto;
-       .address{
-        white-space: pre-line;
-       }
-       .copy-right {
-        white-space: pre-line;
-       }
+        height: auto;
+
+        .address {
+            white-space: pre-line;
+        }
+
+        .copy-right {
+            white-space: pre-line;
+        }
     }
 }
