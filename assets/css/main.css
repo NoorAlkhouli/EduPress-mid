@@ -82,7 +82,22 @@
  .active {
     color: var(--main-color) !important;
     
+    
 
+}
+.dropdown-menu{
+  .active{
+    background-color: #F5F5F5;
+  }
+   .dropdown-item{
+    &:hover {
+            background-color: #F5F5F5;
+        }
+    
+        &:focus {
+            background-color: #F5F5F5;
+        }
+   }
 }
 
 .collapse {
