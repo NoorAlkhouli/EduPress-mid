@@ -87,15 +87,18 @@ nav {
 .dropdown-menu {
     .active {
         background-color: #F5F5F5;
+        color: inherit;
     }
 
     .dropdown-item {
         &:hover {
             background-color: #F5F5F5;
+            color: inherit;
         }
 
         &:focus {
             background-color: #F5F5F5;
+            color: inherit;
         }
     }
 }
