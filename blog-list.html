@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/pages/blog/list.css">
+    <title>Blog-List</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-color ">
+            <div class="container-fluid mx-70 p-lg-0 px-lg-2 pt-4 px-4">
+                <img src="./assets/image/LOGO.png" class="d-lg-block d-none" alt="logo">
+                <img src="./assets/image/logo-sm.png" class="d-lg-none d-block" alt="logo">
+                <button class="navbar-toggler collapsed border border-0 shadow-none" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <img class="list" src="./assets/image/list-menu.svg">
+                    <img class="close d-none" src="./assets/image/close.svg">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul
+                        class="navbar-nav me-auto flex-lg-grow-1 justify-content-lg-center gap-lg-4 mb-lg-0 mt-lg-0 mt-4 mb-2 gap-2">
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./courses-list.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link All Articles" href="./blog-list.html">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Page
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item px-2" href="./contact.html">Contact</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item px-2" href="./faqs.html">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Premium Theme</a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-lg-flex gap-lg-2 align-items-center" role="search">
+                        <a class="btn main-btn-font" href="./login.html">Login / Register</a>
+                        <div class="search d-flex justify-content-center align-items-center ">
+                            <img src="./assets/image/Icon.svg" alt="search">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between gap-5 d-lg-none">
+                        <div class="position-relative mt-3">
+                            <input
+                                class="form-control rounded-0 shadow-none border border-0 border-bottom border-black p-1"
+                                placeholder="Search" />
+                            <img class="position-absolute end-0 top-0" src="./assets/image/Icon.svg" alt="search">
+                        </div>
+                        <a type="button" href="./login.html" class="btn btn-main rounded-5 w-50 p-2 mx-auto mt-5">
+                            Login
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero w-100 d-flex align-items-center px-lg-5">
+            <a class="btn main-btn-font ">Homepage </a>
+            <img src="./assets/image/Icon (2).svg" alt="icon">
+            <a class="btn main-btn-font btn-1"> Blog</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="allarticals">
+            <div
+                class="d-flex justify-content-start flex-column flex-lg-wrap  flex-lg-row justify-content-lg-between align-items-lg-center">
+                <h1>All Articles</h1>
+                <div class="d-flex justify-content-lg-between gap-3 ">
+                    <div class="position-relative">
+                        <input
+                            class="search-input form-control rounded-0 shadow-none border border-0 border-bottom border-black  p-1 "
+                            placeholder="Search" />
+                        <img class="position-absolute end-0 top-0" src="./assets/image/Icon (1).png" alt="search">
+                    </div>
+                    <div class="page-view d-flex gap-3 ">
+                        <a href="./blog-grid.html"><i class="bi bi-grid-fill"></i></a>
+                        <a href="#" class="active"><i class="bi bi-list-task"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="card-list d-flex flex-column gap-4">
+
+            <div
+                class="card-container d-flex gap-4 flex-lg-column flex-row justify-content-lg-start justify-content-center flex-wrap">
+                <div class="card row g-0">
+                    <div class="col-lg-3 col-12">
+                        <img src="./assets/image/art3.png" class="img-fluid " alt="...">
+                    </div>
+                    <div
+                        class="col-lg-9 col-12 d-flex flex-column justify-content-lg-center justify-content-around gap-lg-3 gap-2 card-body">
+                        <h5>Best LearnPress WordPress Theme Collection for 2023</h5>
+                        <div class="d-flex gap-2 ">
+                            <img class="d-lg-none d-block" src="./assets/image/galander.svg" alt="">
+                            <p class="m-0 text-muted">Jan 24, 22023</p>
+                        </div>
+                        <p class="m-0 paragraph">Looking for an amazing & well-functional LearnPress WordPress
+                            Theme?...</p>
+                    </div>
+                </div>
+                <div class="card row g-0">
+                    <div class="col-lg-3 col-12">
+                        <img src="./assets/image/art4.png" class="img-fluid " alt="...">
+                    </div>
+                    <div
+                        class="col-lg-9 col-12 d-flex flex-column justify-content-lg-center justify-content-around gap-lg-3 gap-2 card-body">
+                        <h5>Best LearnPress WordPress Theme Collection for 2023</h5>
+                        <div class="d-flex gap-2 ">
+                            <img class="d-lg-none d-block" src="./assets/image/galander.svg" alt="">
+                            <p class="m-0 text-muted">Jan 24, 22023</p>
+                        </div>
+                        <p class="m-0 paragraph">Looking for an amazing & well-functional LearnPress WordPress
+                            Theme?...</p>
+                    </div>
+                </div>
+                <div class="card row g-0">
+                    <div class="col-lg-3 col-12">
+                        <img src="./assets/image/art5.png" class="img-fluid " alt="...">
+                    </div>
+                    <div
+                        class="col-lg-9 col-12 d-flex flex-column justify-content-lg-center justify-content-around gap-lg-3 gap-2 card-body">
+                        <h5>Best LearnPress WordPress Theme Collection for 2023</h5>
+                        <div class="d-flex gap-2 ">
+                            <img class="d-lg-none d-block" src="./assets/image/galander.svg" alt="">
+                            <p class="m-0 text-muted">Jan 24, 22023</p>
+                        </div>
+                        <p class="m-0 paragraph">Looking for an amazing & well-functional LearnPress WordPress
+                            Theme?...</p>
+                    </div>
+                </div>
+                <div class="card row g-0">
+                    <div class="col-lg-3 col-12">
+                        <img src="./assets/image/art2.png" class="img-fluid " alt="...">
+                    </div>
+                    <div
+                        class="col-lg-9 col-12 d-flex flex-column justify-content-lg-center justify-content-around gap-lg-3 gap-2 card-body">
+                        <h5>Best LearnPress WordPress Theme Collection for 2023</h5>
+                        <div class="d-flex gap-2 ">
+                            <img class="d-lg-none d-block" src="./assets/image/galander.svg" alt="">
+                            <p class="m-0 text-muted">Jan 24, 22023</p>
+                        </div>
+                        <p class="m-0 paragraph">Looking for an amazing & well-functional LearnPress WordPress
+                            Theme?...</p>
+                    </div>
+                </div>
+                <div class="card row g-0">
+                    <div class="col-lg-3 col-12">
+                        <img src="./assets/image/art1.png" class="img-fluid " alt="...">
+                    </div>
+                    <div
+                        class="col-lg-9 col-12 d-flex flex-column justify-content-lg-center justify-content-around gap-lg-3 gap-2 card-body">
+                        <h5>Best LearnPress WordPress Theme Collection for 2023</h5>
+                        <div class="d-flex gap-2 ">
+                            <img class="d-lg-none d-block" src="./assets/image/galander.svg" alt="">
+                            <p class="m-0 text-muted">Jan 24, 22023</p>
+                        </div>
+                        <p class="m-0 paragraph">Looking for an amazing & well-functional LearnPress WordPress
+                            Theme?...</p>
+                    </div>
+                </div>
+                <div class="card row g-0">
+                    <div class="col-lg-3 col-12">
+                        <img src="./assets/image/image-4.png" class="img-fluid " alt="...">
+                    </div>
+                    <div
+                        class="col-lg-9 col-12 d-flex flex-column justify-content-lg-center justify-content-around gap-lg-3 gap-2 card-body">
+                        <h5>Best LearnPress WordPress Theme Collection for 2023</h5>
+                        <div class="d-flex gap-2 ">
+                            <img class="d-lg-none d-block" src="./assets/image/galander.svg" alt="">
+                            <p class="m-0 text-muted">Jan 24, 22023</p>
+                        </div>
+                        <p class="m-0 paragraph">Looking for an amazing & well-functional LearnPress WordPress
+                            Theme?...</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+        <section class="pagination d-flex justify-content-center align-items-center">
+
+            <ul class="d-inline-flex justify-content-center align-items-center list-unstyled gap-lg-3 gap-1">
+                <li>
+                    <span class="fw-semibold fs-6 m-0 p-0">&lt;</span>
+                </li>
+                <li>
+                    1
+                </li>
+                <li>
+                    2
+                </li>
+                <li>
+                    3
+                </li>
+                <li>
+                    <span class="fw-semibold fs-6 m-0 p-0">&gt;</span>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="footer d-flex flex-column justify-content-between">
+            <div class="row justify-content-between mx-70 align-items-start">
+                <div class="col-lg-4 col-12 d-flex flex-column logo-section">
+                    <img src="./assets/image/LOGO.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-lg-2 col-12 d-flex flex-column ul-seciton">
+                    <h4>GET HELP</h4>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Latest Articles</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-12 d-flex flex-column ul-seciton">
+                    <h4>PROGRAMS</h4>
+                    <ul>
+                        <li>Art & Design</li>
+                        <li class="active">Business</li>
+                        <li>IT & Software</li>
+                        <li>Languages</li>
+                        <li>Programming</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-12 d-flex flex-column">
+                    <h4>CONTACT US</h4>
+                    <div>
+                        <p class="address">Address: 2321 New Design Str, Lorem
+                            Ipsum10 Hudson Yards, USA</p>
+                        <ul>
+                            <li class="mt-0">Tel: + (123) 2500-567-8988</li>
+                            <li class="mt-0">Mail: supportlms@gmail.com</li>
+                        </ul>
+                        <div class="social d-inline-flex align-items-center mt-3">
+                            <img src="./assets/image/Icon-facebook.svg" alt="">
+                            <img src="./assets/image/Icon-paint.svg" alt="">
+                            <img src="./assets/image/Icon-x.svg" alt="">
+                            <img src="./assets/image/Icon-insta.svg" alt="">
+                            <img src="./assets/image/Icon-youtube.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copy-right mx-auto mt-5 pb-3 text-center">Copyright © 2024 LearnPress LMS |
+                Powered by ThimPress</p>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
