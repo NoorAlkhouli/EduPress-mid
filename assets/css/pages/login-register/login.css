@@ -20,7 +20,7 @@ section {
 
 .form-1 {
     border: 1px solid var(--Light_grey, #EAEAEA);
-    max-height: 350px;
+    max-height: 370px;
 
     h2 {
         font-family: var(--font-family-1);
